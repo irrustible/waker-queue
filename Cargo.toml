@@ -1,0 +1,10 @@
+[package]
+name = "waker-queue"
+version = "0.1.0"
+authors = ["James Laver <james.laver@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+concurrent-queue = "1.1"
+atomic-waker = "1.0"
+pin-project-lite = "0.1"
